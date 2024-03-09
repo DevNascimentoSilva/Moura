@@ -1,0 +1,274 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+body {
+    background-color: #fff;
+}
+html {
+    overflow-x: hidden ;
+}
+.container {
+    max-width: 1024px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+header {
+    background-color: #e5d599;
+    padding-top: 16px;
+}
+
+header > .container {
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 16px;
+}
+
+header img {
+    width: 275px;
+}
+.phone-icon {
+    font-size: 20px;
+    animation: phone-ring 1s infinite alternate;
+    align-items: center;
+    color: #ff3d00;
+    display: inline-block;
+    margin-left: 500px;
+}
+
+@keyframes phone-ring {
+    0% {
+        transform: translateY(0);
+    }
+    100% {
+        transform: translateY(-5px); /* Move o símbolo de telefone para cima */
+    }
+}
+
+
+header button {
+    background: linear-gradient(to bottom, #417505, #6da92b);
+    color: #fff;
+    font-weight: bold;
+    font-size: 16px;
+    width: 100px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: px;
+    padding: 6px 12px;
+    border: none;
+    align-items: center;
+    display: inline-block;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+header button:hover {
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+    transform: scale(1.1);
+
+}
+
+
+nav {
+    background-color: #ffc219;
+    padding: 16px 0;
+}
+nav li {
+    list-style: none;
+    display: inline;
+    margin-right: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+nav li a {
+    color: #029daf;
+    text-decoration: none;
+}
+nav li a:hover {
+    color: #002c2b;
+}
+
+#carousel-imagens img{
+    height: 450px;
+}
+#PecaAgora {
+    margin-top: 50px;
+}
+#PecaAgora h2 {
+    text-align: center;
+    color: #002c2b;
+    margin-bottom: 16px;
+}
+#PecaAgora button{
+    background: linear-gradient(to bottom, #ff3d00, #ff6300); 
+    margin-bottom: 16px;
+    border-radius: 5px;
+    padding: 10px;
+    font-weight: bold;
+    color: #fff;
+    font-size: 18px;
+    width: 170px;
+    cursor: pointer;
+    border:none;
+    display: block;
+    margin: 0 auto;
+    margin-top: 10px;
+    margin-bottom: 16px;
+}
+#PecaAgora button:hover{
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+    transform: scale(1.1);
+}
+
+.block {
+    width: 200px;
+    padding: 16px;
+    background-color: transparent;
+    border: none;
+    display: inline-block;
+    vertical-align: top;
+    text-align: left;
+    border-radius: 20px;
+    margin-left: 120px;
+    margin-top: 50px;
+}
+
+.block img {
+    width: 100%;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+.block p {
+    font-size: 14px;
+    margin-top: 5px;
+}
+.container-flex {
+    display: flex;
+}
+#Info {
+    margin-top: 50px;
+}
+#Info img {
+    max-width: 450px;
+    border-radius: 50px;
+}
+#Info h2 {
+    text-align: center;
+    margin-bottom: 16px;
+    color: #002c2b;
+    margin-top: 60px;
+}
+#Info p {
+    text-align: center;
+    color: #002c2b;
+}
+#Info button{
+    background: linear-gradient(to bottom, #ff3d00, #ff6300); 
+    margin-bottom: 16px;
+    border-radius: 5px;
+    padding: 10px;
+    font-weight: bold;
+    color: #fff;
+    font-size: 18px;
+    width: 170px;
+    cursor: pointer;
+    border:none;
+    display: block;
+    margin: 0 auto;
+    margin-top: 10px;
+    margin-bottom: 16px;
+}
+#Info button:hover{
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+    transform: scale(1.1);
+}
+.comment-container {
+    text-align: center;
+    margin-top: 50px;
+    background-color: #f8f3bf;
+    padding: 30px 0;
+}
+comment-container , h2 {
+    color: #002c2b;
+}
+comment-container, h3 {
+    color:#029daf;
+}
+  
+  
+  .comment-box {
+    display: inline-block;
+    width: 30%;
+    vertical-align: top;
+    margin: 0 20px;
+    background-color: #f2f2f2;
+    padding: 20px;
+    border-radius: 5px;
+    box-sizing: border-box;
+    margin-top: 50px;
+  }
+  
+  .comment-box h2 {
+    font-size: 18px;
+    margin-bottom: 10px;
+    color: #002c2b;
+  }
+  
+  .comment-box p {
+    font-size: 16px;
+  }
+  
+  .rating {
+    margin-top: 10px;
+  }
+  
+  .star {
+    font-size: 24px;
+    color: gold;
+  }
+  footer {
+    background-color: #ffc219;
+    padding: 30px;
+  }
+  .social-links {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .social-links a {
+    display: inline-block;
+    margin: 0 10px;
+  }
+  
+  .copyright {
+    text-align: center;
+  }
+  
+  .copyright p {
+    margin-bottom: 10px;
+    color: #002c2b;
+  }
+
+  .social-links img {
+    width: 30px;
+    height: 30px;
+  }
+  .social-links a:nth-child(1) img {
+    background-color:#002c2b;
+  }
+  .social-links a:nth-child(2) img {
+    background-color: #be0997;
+  }
+  .social-links a:nth-child(3) img {
+    background-color: #029daf;
+  }
+  .social-links a:nth-child(4) img {
+    background-color: red;
+  }
+  
+  
+
+  
